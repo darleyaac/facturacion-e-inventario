@@ -1,0 +1,62 @@
+body{
+	background-image: url('../image/login.jpg');
+}
+title{
+
+}
+#login{
+	width: 35%;
+	background: rgba(0,0,0,0.7);
+	margin: auto;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+header{
+	background-image: url('../image/facin2.jpg');
+	text-align: center;
+	font-family: Matura MT Script Capitals;
+	font-size: 30px;
+	border-radius: 150px;
+	border-style: double;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+#login2{
+	background: MediumTurquoise;
+	font-family: Matura MT Script Capitals;
+	width: 60%;
+	margin: 5px auto;
+	padding: 10px;
+	border-radius: 10px;	
+}
+label{
+	width: 30%;
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	margin-top: 20px;	
+}
+input{
+	font-family: Matura MT Script Capitals;
+	font-size: 15px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 15px;	
+}
+#registro{
+	text-align: right;
+}
+a{
+	color: blue;
+}
+footer{
+	background-color: SpringGreen; 
+	font-family: Matura MT Script Capitals;
+	border-radius: 10px;
+	width: 25%;
+	text-align: left;
+	}
