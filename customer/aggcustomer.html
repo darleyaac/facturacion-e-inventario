@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FACIN</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="shortcut icon" type="image/png" href="../image/icon.png">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>Facin</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="customer.html">Clientes</a></li>
+				<li><a href="../login/login.html">Salir</a></li>
+			</ul>
+		</nav>
+		<section>
+			<div>
+				<article>
+					<fieldset>
+						<legend>Datos Basicos del Cliente</legend>
+						<form action="user.html" method="POST">
+							<div class="boton">
+								<label>Nombres</label>
+								<input type="text" name="name" value="" placeholder="" title="" required="">
+							</div>
+							<div class="boton">
+								<label>Apellidos</label>
+								<input type="text" name="seconds name" value="" placeholder="" title="" required="">
+							</div>						
+							<div class="boton">
+								<label>Cedula de identidad</label>
+								<input type="number" name="identity card" value="" placeholder="Ej: 5868657" title="" min="0" max="30000000" required="">
+							</div>
+							<div class="boton">
+								<label>Telefono</label>
+								<input type="number" name="phone" value="" placeholder="Ej:02745677654" title="" min="0" max="30000000" required="">
+							</div>	
+							<div class="boton">
+								<label>Dirección</label>
+								<input type="text" name="user" value="" placeholder="" title="" required="">
+							</div>
+							<div class="boton">
+								<input id="boton" type="submit" value="agregar">
+								<input id="boton" type="reset" value="restablecer">
+							</div>
+						</form>
+					</fieldset>
+				</article>
+			</div>
+		</section>
+		<footer>			
+			<p>
+				Desarrollado por: Darley Camargo.
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
