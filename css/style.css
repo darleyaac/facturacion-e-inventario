@@ -37,7 +37,7 @@ nav ul li a:link{
 	color: black;	
 }
 nav ul li a:visited{
-	color: blue;
+	color: black;
 }
 aside{ 
 	background-color: rgba(0,0,0,0.7);
@@ -52,21 +52,22 @@ ul li{
 .sidebar li a{
 	background-color: white;
 	border-radius: 10px;
-	width: 90%;
+	width: 100%;
 	font-size: 25px;
 	display: block;
-	padding: 10px 15px;
+	padding: 10px  15px;
 	margin-bottom: 10px;
 	color: black;
 	text-align: center;
 }
 .sidebar > li{
-	float: left;
+	float: right;
+	margin-right: 50px;
 }
 .sidebar li ul{
 	display: none;
 	position: absolute;
-	min-width: 14px;
+	width: 120px;
 }
 .sidebar li:hover > ul{
 	display: block;
@@ -78,7 +79,7 @@ aside ul li a:link{
 	color: black;	
 }
 aside ul li a:visited{
-	color: blue;
+	color: black;
 }
 section{
 	background-color: rgba(33, 215, 129,0.7);
@@ -130,4 +131,13 @@ table, td{
 }
 table{
 	margin-top: 50px;
+}
+tbody tr td{
+	padding: 13px;
+}
+tbody tr td a{
+	color: blue;
+}
+tfoot a{
+	color:blue;
 }
